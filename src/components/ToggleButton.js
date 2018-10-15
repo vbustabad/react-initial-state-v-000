@@ -1,14 +1,14 @@
 import React from 'react';
- 
-class ToggleButton extends React.Component { 
+
+class ToggleButton extends React.Component {
   constructor() {
     super();
- 
+
     this.state = {
       isEnabled: false
     }
   }
- 
+
   render() {
     return (
       <button className="toggle-button">
@@ -17,5 +17,5 @@ class ToggleButton extends React.Component {
     )
   }
 }
- 
+
 export default ToggleButton;
